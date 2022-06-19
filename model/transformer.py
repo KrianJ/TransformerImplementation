@@ -8,8 +8,8 @@ import torch.nn as nn
 
 from layer.encoder_layer import EncoderLayer
 from layer.decoder_layer import DecoderLayer
-from model.encoder import TransformerEncoder
-from model.transformerdecoder import TransformerDecoder
+from model.transformer_encoder import TransformerEncoder
+from model.transformer_decoder import TransformerDecoder
 from component.embedding import TokenEmbedding, PositionalEncoding
 
 
